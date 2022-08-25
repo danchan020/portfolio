@@ -58,6 +58,7 @@ section {
     margin-left: 60px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
 
   .info {
@@ -69,14 +70,19 @@ section {
   .info-title {
     color: #8CB0D9;
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     font-size: 40px;
     font-weight: 600;
   }
 
   .info-description {
     font-size: 25px;
-    color: lightgray;
+    color: rgb(233, 226, 226);
+  }
+
+  .info-description p{
+    margin-bottom: 20px;
+    max-width: 50vw;
   }
 
   .headshot {
@@ -87,7 +93,7 @@ section {
 
   .info-button {
     text-align: center;
-    margin-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .link-btn {
