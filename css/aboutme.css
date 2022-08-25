@@ -1,6 +1,5 @@
 section {
     margin: 0;
-    height: 500px;
     background-color: #1A324B;
 }
 
@@ -52,4 +51,36 @@ section {
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+  }
+
+  .aboutme {
+    padding: 80px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .info {
+    font-family: 'Inter';
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .info-title {
+    color: #8CB0D9;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .info-description {
+    font-size: 25px;
+    color: lightgray;
+  }
+
+  .headshot {
+    margin-right: 60px;
+    width: 300px;
+    border-radius: 74% 26% 76% 24% / 30% 70% 30% 70% ;
   }
