@@ -1,0 +1,55 @@
+section {
+    margin: 0;
+    height: 500px;
+    background-color: #1A324B;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    background-color: #0D1926;
+    transition: top 500ms ease-in-out;
+  }
+  
+  nav.scroll-up,
+  nav:focus-within {
+    top: 0;
+  }
+  
+  nav.scroll-down {
+    top: -100%;
+  }
+  
+  .links {
+    display: flex;
+    margin-right: 175px;
+  }
+  
+  .links a {
+    display: inline-block;
+    margin: 0 1em;
+  }
+  
+  .logo {
+    font-family: 'Courier New', Courier, monospace;
+    color: #8CB0D9;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin-left: 175px;
+  }
+  
+  nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
