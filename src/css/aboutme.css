@@ -41,10 +41,13 @@ section {
   
   .logo {
     font-family: 'Courier New', Courier, monospace;
-    color: #8CB0D9;
     font-weight: bold;
     letter-spacing: 0.1em;
     margin-left: 175px;
+  }
+
+  .logo a {
+    color: #8CB0D9;
   }
   
   nav a {

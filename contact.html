@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/Users/daadadaniel/Desktop/portfolio/src/css/aboutme.css">
+        <link rel="stylesheet" href="/Users/daadadaniel/Desktop/portfolio/src/css/contact.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap" rel="stylesheet">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div>
+            <nav>
+                <div class="logo">
+                  <a href="/" onclick="route()">Daniel Chan</a>
+                </div>
+                <div class="links" id="main-nav">
+                    <a href="/projects" onclick="route()">Projects</a>
+                    <a href="/blogs" onclick="route()">Blogs</a>
+                    <a href="/contact" onclick="route()">Contact</a>
+                </div>
+            </nav>
+        </div>
+        <section id="contact">
+            <div class="container">
+              <div class="contact-text">
+                <h2 class="section-title">Contact <span class="title-icon">&#128231;</span></h2>
+                <p class="section-subtitle">
+                  Email me with the form below to tell me about your available job opportunities!
+                </p>
+              </div>
+              <div class="contact-content">
+                <div class="form-container scroll-in">
+                  <p class="success-message"></p>
+                  <form action="https://formsubmit.co/danchan020@gmail.com" method="POST">
+                    <div class="input-container">
+                      <input type="text" id="name" name="name" required class="form-input" />
+                      <label for="name">Name:</label>
+                    </div>
+                    <div class="input-container">
+                      <input type="email" id="email" name="email" required class="form-input" />
+                      <label for="email">Email:</label>
+                    </div>
+                    <div class="input-container">
+                      <input type="text" id="subject" name="subject" class="form-input" />
+                      <label for="subject">Subject (optional):</label>
+                    </div>
+                    <div class="input-container">
+                      <textarea required maxlength="1000" id="message" name="message" class="form-input"></textarea>
+                      <label for="message">Message:<br> </label>
+                      <small class="message-count">
+                        <span id="message-count">1000</span> characters
+                      </small>
+                    </div>
+                    <div>
+                      <button type="submit" class="link-btn">Send</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        <footer></footer>
+        <script src="index.js"></script>
+    </body>
+</html>

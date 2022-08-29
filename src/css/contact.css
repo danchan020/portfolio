@@ -1,0 +1,96 @@
+section .container {
+    padding: 5rem 0;
+    background-color: #0D1926;
+
+  }
+
+.contact-text h2{
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 600;
+    color: #8CB0D9;
+    text-align: center;
+}
+
+.contact-text p{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 300;
+    color: lightgray;
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    background-color: #0D1926;
+  }
+  
+.contact-content .link-btn {
+    border-radius: 0;
+    margin: 1.5rem 0;
+    display: block;
+    width: fit-content;
+  }  
+
+.form-container {
+    flex: 1 0 auto;
+    max-width: 600px;
+    width: 100%;
+    margin-right: 3rem;
+  }
+  
+.input-container {
+    position: relative;
+    margin: 1.5rem 0;
+  }
+  
+.input-container .form-input {
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    caret-color: whitesmoke;
+    border: 1px solid lightgray;
+    color: lightgrey;
+    transition: border 500ms;
+    padding: 1.75rem 1rem 0.5rem;
+    font-size: 1.15rem;
+  }
+  
+  .input-container textarea {
+    height: 300px;
+    resize: none;
+    font: inherit;
+  }
+  
+  .input-container label {
+    display: block;
+    position: absolute;
+    width: 100%;
+    font-size: 1.15rem;
+    top: 15px;
+    padding: 0.25rem 1rem;
+    color: lightgrey;
+    transform-origin: left;
+    user-select: none;
+    transition: all 500ms;
+  }
+  
+  .input-container .form-input:hover,
+  .input-container .form-input:focus {
+    outline: none;
+    border-color: #8CB0D9;
+  }
+  
+  .form-input:focus + label,
+  .focused label {
+    top: 0rem;
+    font-size: 0.75rem;
+    background-color: #8CB0D9;
+    color: black;
+    user-select: auto;
+  }
+
+  .message-count {
+    color: whitesmoke;
+  }

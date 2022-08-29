@@ -8,10 +8,11 @@ const route = (event) => {
 }
 
 const routes = {
-    404: "/pages/404.html",
-    "/": "/pages/landing.html",
-    "projects": "/pages/projects.html",
-    "blogs": "/pages/blogs.html",
+    404: "/404.html",
+    "/": "/landing.html",
+    "projects": "/projects.html",
+    "blogs": "/blogs.html",
+    "contact" : "/contact.html",
 }
 
 const handleLocation = async () => {
@@ -26,3 +27,6 @@ window.route = route
 
 handleLocation()
 
+// nav bar 
+
+// scroll 
