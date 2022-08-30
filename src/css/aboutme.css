@@ -122,3 +122,42 @@ section {
     background-color: #8CB0D9;
     border-color: transparent;
   }
+
+  footer {
+    height: 100px;
+    background-color: black;
+}
+
+.fourofour {
+  height: 100vh;
+  background-color: #0D1926;
+  color:whitesmoke;
+  text-align: center;
+  padding-top: 20%;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  footer .social-media {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
+  
+  footer .social-media a {
+    color: whitesmoke;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    transition: color 300ms, font-size 300ms;
+  }
+
+  footer .social-media a:hover {
+    color: #8CB0D9;
+    margin: 0.5rem;
+    font-size: 2rem;
+  }

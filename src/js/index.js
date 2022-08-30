@@ -22,11 +22,33 @@ const handleLocation = async () => {
     document.getElementById("main-nav").innerHTML = html
 }
 
-window.onpopstate = handleLocation()
+window.onpopstate = handleLocation
 window.route = route
 
 handleLocation()
 
-// nav bar 
-
 // scroll 
+
+const scrollButton = document.querySelector(".scroll-button");
+const main = document.querySelector("main");
+const topOfMain = main.getBoundingClientRect().top;
+
+scrollButton.addEventListener("click", function () {
+    window.scroll({ top: topOfMain, behavior: "smooth" });
+})
+
+// message
+
+const message = document.querySelector("#message")
+console.log(message)
+
+const handleMessageCount = () => {
+    var msg = document.getElementById("message").value;
+    var msgCount = document.getElementById("message-count")
+    var msgLength = msg.length;
+    const maxLength = 1000;
+    var charLeft = maxLength - msgLength;
+    msgCount.innerText = charLeft;
+  }
+
+message.addEventListener("input", handleMessageCount)

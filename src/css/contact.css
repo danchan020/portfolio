@@ -94,3 +94,11 @@ section .container {
   .message-count {
     color: whitesmoke;
   }
+
+  .thanks {
+    height: 100vh;
+    background-color: #0D1926;
+    color: #8CB0D9;
+    text-align: center;
+    padding-top: 20%;
+  }
