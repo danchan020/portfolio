@@ -1,7 +1,8 @@
 section .container {
     padding: 5rem 0;
     background-color: #0D1926;
-
+    height: 100vh;
+    overflow: scroll;
   }
 
 .contact-text h2{
