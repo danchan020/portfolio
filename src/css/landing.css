@@ -21,7 +21,7 @@
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    animation: fadeIn ease 2s;
+    animation: fadeIn ease 5s;
 }
 
 @keyframes fadeIn {
