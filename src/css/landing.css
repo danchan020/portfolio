@@ -21,6 +21,16 @@
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .landing-intro {
