@@ -1,7 +1,6 @@
 section .container {
-    padding: 5rem 0;
+    padding: 3.3rem 0;
     background-color: #0D1926;
-    height: 100vh;
   }
 
 .contact-text h2{
@@ -24,6 +23,7 @@ section .container {
     display: flex;
     justify-content: center;
     background-color: #0D1926;
+    position: relative;
   }
   
 .contact-content .link-btn {
